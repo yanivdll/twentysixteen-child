@@ -1,0 +1,204 @@
+/*
+ Theme Name:   Twenty Sixteen Child
+ Theme URI:    http://prodissues.com/twenty-fifteen-child/
+ Description:  Twenty Sixteen Child Theme
+ Author:       Yaniv Gilad
+ Author URI:   http://prodissues.com
+ Template:     twentysixteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-sixteen-child
+*/
+
+/**
+* Site header
+*/
+ .site-header{
+  padding: 0 4.5455%;
+  background: black;
+  }
+
+  .site-branding .site-title a{
+      color: white;
+
+  }
+
+  .site-branding .site-title a:hover{
+      color: white;
+
+  }
+
+  .primary-menu .menu-item a{
+      color: white;
+  }
+
+  .primary-menu .menu-item a:hover{
+      color: white;
+  }
+
+  /* menu toggel - for mobile screen */
+  .menu-toggle{
+      color:white;
+  }
+  .menu-toggle:hover{
+      background-color: transparent;
+      border-color: white;
+      color: white;
+  }
+
+/**
+ * Index page -- post title
+ */
+ .entry-title a:hover{
+     color: #333;
+     text-decoration:none;
+ }
+
+
+/**
+ ** Right rail
+ */
+
+.sidebar{
+    //background: rgb(191, 194, 198) url(http://localhost:8888/wp-content/themes/twentysixteen-child/images/stripes.png) repeat 0 0;
+    background: repeating-linear-gradient(
+			45deg,
+  white,
+  white  4px,
+  #EBEBEB 1px,
+  #EBEBEB 5px);
+    float: left;
+    margin-left: 80%;
+    padding: 20px;
+    width: 25%;
+}
+
+aside#sidebar{
+    margin-top: 0px;
+}
+
+section#search-2.widget.widget_search{
+    border-top: none;
+}
+
+
+/* fixing the sidebar, so it takes 100% width on mobile */
+@media screen and (max-width: 56.87em) {
+    .sidebar{
+	margin:0;
+	width: 100%;
+    }
+}
+
+/**
+* Better recent comments
+*/
+
+span.comment-excerpt{
+    background-color: rgba(237, 234, 86,0.7);
+    font-style: italic;
+}
+
+/**
+* Footer 
+*/
+footer#colophon{
+    background:black;
+}
+
+
+/** 
+* main content page
+*/
+
+main{
+    margin-top: 20px;
+}
+
+.entry-content a{
+    color: #222;
+    box-shadow:none;
+    border-bottom: 2px solid #EDEA56
+}
+
+.home article{
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-bottom: 5px solid #EDEDED;
+}
+
+/**
+* Aside 
+*/
+
+body.home article.format-aside{
+    //background: rgb(191, 194, 198) url(http://localhost:8888/wp-content/themes/twentysixteen-child/images/stripes.png) repeat 0 0;
+    background: repeating-linear-gradient(
+  45deg,
+  white,
+  white  4px,
+  #EBEBEB 1px,
+  #EBEBEB 5px
+);
+    padding: 1em;
+    float: none;
+//  width: 100%;
+}
+
+
+body.home .format-aside .entry-header .entry-title{
+    display: none;
+}
+
+a.infinit-permalink{
+    font-weight: bolder;
+    border: none;
+
+}
+
+/**
+* Continue reading
+*/
+a.more-link{
+    text-decoration: none;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+a.more-link:hover{
+    text-decoration: none;
+    border: 3px solid #EDEA56;
+    padding: 5px;
+    background: #EDEA56;
+}
+
+
+/** 
+* Pagination 
+*/
+
+div.nav-links a:hover span.post-title{
+    color: black;
+    border-bottom: 2px solid #EDEA56
+}
+
+a.next.page-numbers:hover{
+    background-color:#EDEA56;
+    color:black;
+}
+
+a.prev.page-numbers:hover{
+    background-color:#EDEA56;
+    color:black;
+}
+
+a.page-numbers{
+    color:black;
+}
+
+span.page-numbers.current{
+    color:gray;
+}
+
