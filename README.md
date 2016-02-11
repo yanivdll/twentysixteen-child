@@ -13,4 +13,10 @@ This is a child theme to WordPress twentysixteen
 http://prodissues.com
 
 # Screenshot
+
+## Desktop
 ![twentysixteen-child](https://github.com/yanivdll/twentysixteen-child/blob/master/screenshot.png)
+
+## Mobile
+
+![twentysixteen-child](https://github.com/yanivdll/twentysixteen-child/blob/master/screenshot-mobile.png)
