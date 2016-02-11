@@ -1,4 +1,4 @@
 # twentysixteen-child
 A child theme to WordPress twentysixteen
 
-[](screenshot.jpeg)
+![twentysixteen-child](https://github.com/yanivdll/twentysixteen-child/blob/master/screenshot.pdf)
